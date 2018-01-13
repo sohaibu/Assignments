@@ -1,22 +1,36 @@
 body{
 background: lightgray;
-padding: 20px;
+padding: 0px;
+margin: 0;
+}
+#content{
+width: 94%;
+margin: 0 auto;
 }
 .txt22, .txt11, .txt33{
-background-color: white;
 height: 50px;
 position: relative;
 left: 0;
 }
+.txt22{
+background-color: aquamarine;
+}
+.txt11{
+background-color: lightgray;
+}
+.txt33{
+background-color: lightcoral;
+}
 #txt1, #txt2, #txt3{
-margin-top: 20px;
+margin-top: 10px;
 width: 29%;
 float: left;
-margin-left: 20px;
 border-style: solid;
-background: lightcoral;
+background: white;
 border-color: black;
 margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
 }
 .Txt1, .txt2, .txt3{
 float: right;
@@ -33,14 +47,14 @@ padding: 10px;
 width: 45%;
 }
 #txt2{
-width: 94%;    
+width: 93%;    
 }
 }
 
 /*-mobile-*/
 @media (max-width: 767px){
 #txt1, #txt2, #txt3{
-width: 100%;
+width: 95%;
 }
 }
 
