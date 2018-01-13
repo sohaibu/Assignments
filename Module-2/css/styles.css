@@ -10,7 +10,10 @@ margin: 0 auto;
 .txt22, .txt11, .txt33{
 height: 50px;
 position: relative;
-left: 0;
+top: 0px;
+left: 59.9%;
+border: 1px solid;
+width: 40%;
 }
 .txt22{
 background-color: aquamarine;
@@ -22,6 +25,7 @@ background-color: lightgray;
 background-color: lightcoral;
 }
 #txt1, #txt2, #txt3{
+
 margin-top: 10px;
 width: 29%;
 float: left;
