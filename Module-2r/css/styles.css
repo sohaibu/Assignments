@@ -1,0 +1,65 @@
+body{
+background: lightgray;
+padding: 0px;
+margin: 0;
+}
+#content{
+width: 94%;
+margin: 0 auto;
+}
+.txt22, .txt11, .txt33{
+height: 50px;
+position: relative;
+top: 0px;
+left: 59.9%;
+border: 1px solid;
+width: 40%;
+}
+.txt22{
+background-color: aquamarine;
+}
+.txt11{
+background-color: lightgray;
+}
+.txt33{
+background-color: lightcoral;
+}
+#txt1, #txt2, #txt3{
+
+margin-top: 10px;
+width: 29%;
+float: left;
+border-style: solid;
+background: white;
+border-color: black;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.Txt1, .txt2, .txt3{
+float: right;
+padding: 10px;
+font-size: 30px;
+}
+p{
+padding: 10px;
+}
+
+/*----large-----*/
+@media (min-width: 768px) and (max-width: 991px){
+#txt1, #txt3{
+width: 45%;
+}
+#txt2{
+width: 93%;    
+}
+}
+
+/*-mobile-*/
+@media (max-width: 767px){
+#txt1, #txt2, #txt3{
+width: 95%;
+}
+}
+
+
