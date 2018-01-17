@@ -1,0 +1,81 @@
+body{
+    background: white;
+    font-size: 20px;
+}
+
+#header-nav{
+background: #696969;
+border-radius: 0;
+
+border-bottom: 6px solid;
+border-bottom-color: black;
+}
+.Main-menu{
+margin-bottom: 50px;
+margin-top: 30px;
+font-size: 2.1em;
+color: black;
+}
+.navbar-brand h1{
+font-size: 1.7em;
+color: white;
+position: absolute;
+top: 10px;
+margin: auto;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+ text-decoration: none;
+}
+#nav-list{
+margin-top: 0px;
+margin-right: 0px;
+}
+#nav-list li{
+font-size: 1.2em;
+margin-right: 20px;
+
+}
+#nav-list>li>a{
+color: white;
+text-align: center;
+}
+#nav-list a:hover, nav-list a:focus {
+color: white;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+background-color: black;
+border: 1px solid white;
+}
+.navbar-toggle{
+margin-top: 10px;
+margin-right: 30px;
+}
+#collapsable-nav .glyphicon{
+margin-bottom: 20px;
+font-size: 1.4em;
+}
+#main-content{
+width: 80%;
+margin: 0 auto;
+margin-top: 0px;
+}
+.col-md-12, .col-sm-12, .col-xs-12{
+background-color: lightgrey;
+margin-bottom: 10px;
+}
+#Noodles>span, #Chicken>span, #beef>span{
+  position: absolute;
+  top:0;
+right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+#Noodles p, #Chicken p, #beef p{
+margin-top: 60px;
+}
